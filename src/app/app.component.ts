@@ -15,6 +15,7 @@ export class AppComponent {
   activar = false;
 
   fecha: Date = new Date();
+  year = this.fecha.getFullYear();
   idioma = 'es';
   videoUrl = 'https://www.youtube.com/embed/GsKVPDtQWFw';
 
